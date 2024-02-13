@@ -1,0 +1,17 @@
+import java.util.*;
+class Si
+{
+public static void main(String[] args)
+{
+int P,N,R,num;
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter the P number:");
+P=sc.nextInt();
+System.out.println("Enter the N number:");
+N=sc.nextInt();
+System.out.println("Enter the R number:");
+R=sc.nextInt();
+num=P*N*R/100;
+System.out.println("SI value="+num);
+}
+}
