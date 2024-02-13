@@ -1,0 +1,18 @@
+import java.util.*;
+class Odd
+{
+public static void main(String[] args)
+{
+int X;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the number:");
+X=sc.nextInt();
+if(X%2==0)
+{
+System.out.println("It is a Even number");
+}
+{
+System.out.println("It is a Odd number");
+}
+}
+}
